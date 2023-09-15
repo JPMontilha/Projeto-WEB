@@ -1,1 +1,108 @@
-/* alguem muda o nome aqui */
+body{
+    background-color: #382775;
+}
+
+.div-pai {
+    background-color: #382775;
+    weight: 100vh;
+    height: 100vh;
+}
+
+.branco{
+    color: white;
+}
+
+.font {
+    font-family: 'Averia Libre', sans-serif;
+}
+
+.logo {
+    color: white;
+    font-family: 'Averia Libre', sans-serif;
+    font: Averia Libre;
+    font-size: 40px;
+}
+
+.sair {
+    color: #3F92C5;
+    font: Averia Libre;
+    font-size: 20px;
+}
+
+.data {
+    color: #8B8B8B;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.titulo {
+    color: #3F92C5;
+    font-size: 36px;
+    text-align: center;
+}
+
+.botoes {
+    color: #37BD6D;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10%;
+}
+
+.txt {
+    color: white;
+    size: 36px;
+}
+
+.acoes-main{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    height: 90%;
+}
+
+.acoes-div {
+    width: 271px;
+    height: 238px;
+    background-color: #312464;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.acoes-img {
+    width: 100px;
+    height: 100px;
+}
+
+.coleta-main {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    height: 90%;
+    padding: 40px;
+}
+
+.AAAAAA{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.emote-div{
+    width: 271px;
+    height: 238px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.div-pai {
+    background-color: #382775;
+    weight: 100vh;
+    height: 100vh;
+}
+
+.logo {
+    color: white;
+    font-family: 'Averia Libre', sans-serif;
+    font: Averia Libre;
+    font-size: 40px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    height: 90%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 40px;
+    padding: 10px;
+}
+
+.text{
+    color: white;
+    font-size: 24px;
+}
+
+.aviso{
+    color: #FD7979;
+    font-size: 16px;
+}
+
+.link{
+    color: #3F92C5;
+    font-size: 18px;
+}
+
+.box{
+    width: 424px;
+    heigt: 39px;
+}
+
+.btn{
+    color: white;
+    background-color: #37BD6D;
+    width: 134px;
+    height: 40px;
+    border-radius: 10px;
+}

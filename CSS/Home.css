@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.div-pai {
+    background-color: #382775;
+    weight: 100vh;
+    height: 100vh;
+}
+
+.logo {
+    color: white;
+    font-family: 'Averia Libre', sans-serif;
+    font: Averia Libre;
+    font-size: 40px;
+}
+
+.sair {
+    color: #3F92C5;
+    font: Averia Libre;
+    font-size: 20px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10%;
+    padding: 10px;
+}
+
+.lupa{
+    width: 24px;
+}
+
+.box{
+    width:1016px;
+    heigt: 36px;
+}
+
+.btn{
+    color: white;
+    background-color: #37BD6D;
+    width: 134px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.text{
+    color: #3F92C5;
+    font-size: 36px;
+}
+
+.data{
+    color: #8B8B8B;
+    font-size: 16px;
+}

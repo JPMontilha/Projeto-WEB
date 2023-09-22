@@ -5,13 +5,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="../CSS/CSS.css">
+        <link rel="stylesheet" href="../CSS/NovaPesquisa.css">
 
         <title>Satisfazendo.vc - Nova Pesquisa</title>
     </head>
 
-    <body bgcolor="#382775">
-
+    <body>
+        <div class="div-pai">
         <header class="cabecalho">
             <div>
               <a href="Home.html">
@@ -24,26 +24,26 @@
             </div>
         </header>
 
-        <main>
-            <h1 style="color: white;">Criar nova pesquisa de satisfação</h1>
+        <main class="main">
+            <h1 class="text">Criar nova pesquisa de satisfação</h1>
             <section>
-                <p style="color: white;">Nome da pesquisa</p>
-                <input type="text" id="nome" name="nome" style="width: 20%">
+                <p class="text">Nome da pesquisa</p>
+                <input type="text" id="nome" name="nome" class="box">
             </section>
             <section>
-                <p style="color: white;">Data</p>
-                <input type="date" id="data" name="data" style="width: 20%">
+                <p class="text">Data</p>
+                <input type="date" id="data" name="data" class="box">
             </section>
             <section>
-                <p style="color: white;">Imagem</p>
-                <input type="file" id="imagem" name="imagem" style="width: 20%">
+                <p class="text">Imagem</p>
+                <input type="file" id="imagem" name="imagem" class="box">
                 <p></p>
                 <img src = "../Imagens/Mascara.png">
             </section>
             <a href="Home.html">
-                <button>Criar</button>
+                <button class="btn">Criar</button>
             </a>
         </main>
-        
+        </div>
     </body>
 </html>

@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #382775;
+}
+.div-pai {
+    background-color: #382775;
+    weight: 100vh;
+    height: 100vh;
+}
+
+.branco{
+    color: white;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10%;
+    padding: 10px;
+}
+
+.sair {
+    color: #3F92C5;
+    font: Averia Libre;
+    font-size: 20px;
+    text-align: right;
+}
+
+.coleta-main {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    height: 90%;
+    padding: 40px;
+}
+
+.AAAAAA{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.emote-div{
+    width: 271px;
+    height: 238px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

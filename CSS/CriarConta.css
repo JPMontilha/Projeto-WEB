@@ -19,12 +19,6 @@ body{
     font-size: 40px;
 }
 
-.sair {
-    color: #3F92C5;
-    font: Averia Libre;
-    font-size: 20px;
-}
-
 .cabecalho {
     display: flex;
     flex-direction: row;
@@ -43,7 +37,8 @@ body{
     flex-direction: column;
     justify-content:space-around;
     align-items: center;
-    height: 90%;
+    height: 80%;
+    position: relative;
 }
 
 .box{
@@ -57,6 +52,9 @@ body{
     width: 134px;
     height: 40px;
     border-radius: 10px;
+    position: absolute;
+    /* bottom: 2px; */
+    right: 0px;
 }
 
 .aviso{

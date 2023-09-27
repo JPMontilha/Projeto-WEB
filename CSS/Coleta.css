@@ -1,7 +1,6 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #382775;
 }
 .div-pai {
     background-color: #382775;
@@ -33,7 +32,7 @@ body{
     flex-direction: column;
     justify-content:space-around;
     align-items: center;
-    height: 90%;
+    height: 75%;
     padding: 40px;
 }
 

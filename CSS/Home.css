@@ -21,6 +21,24 @@ body{
     font-size: 20px;
 }
 
+.carrocel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pesquisa{
+    height: 271px;
+    width: 238px;
+    background-color: #FFF;
+    margin: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .cabecalho {
     display: flex;
     flex-direction: row;
@@ -34,7 +52,7 @@ body{
 }
 
 .box{
-    width:1016px;
+    width:97%;
     heigt: 36px;
 }
 

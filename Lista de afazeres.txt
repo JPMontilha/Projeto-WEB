@@ -1,20 +1,21 @@
 Feitos:
--Login
 -Redefinir Senha
 -Criar Conta
 -Acoes Pesquisa
 -Coletar Dados
 -Obrigado
+-Login
+-Relatorio
+-Nova Pesquisa
+-Editar Pesquisa
 
 
 
 
 A fazer:
--Home (colocar caixas em branco)
--Nova Pesquisa(alinhar imagem e botao(colocar o alinhar dentro))
--Editar Pesquisa (o mesmo do de cima)
--Relatorio (colocar legenda)
+-Home (colocar caixas em branco) G
+-Tirar o sublinhado em HOME e ACOES PESQUISA G
 
-COLOCAR A POHA DA FONTE CERTA
+COLOCAR A POHA DA FONTE CERTA G
 
 

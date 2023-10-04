@@ -35,25 +35,58 @@ body{
     margin-right: 600px;
     margin-top: 0;
     margin-bottom: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
     align-items: center;
-    height: 80%;
+    line-height: 0;
     border: solid;
     border-radius: 1px;
     border-color: #737373;
     border-radius: 15px;
 }
 
+.Espacar {
+    width: 90%;
+  }
+  
 .text{
     color: white;
     font-size: 36px;
 }
 
 .box{
-    width: 424px;
+    width: 100%;
     height: 39px;
+}
+
+.box-i{
+    width: 400px;
+    height: 39px;
+}
+
+.imagem-input {
+    display: none;
+}
+
+.imagem-label {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #A4A4A4;
+    color: white;
+    width: 150px;
+    height: 27px;
+    line-height: 27px;
+    font-size: 16px;
+}
+
+.Alinhar{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .btn{
@@ -62,4 +95,8 @@ body{
     width: 134px;
     height: 40px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
 }

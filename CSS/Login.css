@@ -59,6 +59,13 @@ body{
     heigt: 39px;
 }
 
+.Espacar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: self-end;
+}
+
 .Alinhar{
     width: 80%;
     display: flex;

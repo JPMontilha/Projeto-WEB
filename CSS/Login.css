@@ -39,8 +39,9 @@ body{
 .cabecalho {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    height: 40px;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100vh;
     padding: 10px;
 }
 

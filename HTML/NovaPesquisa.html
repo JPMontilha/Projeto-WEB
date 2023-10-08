@@ -5,6 +5,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Averia+Libre&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../CSS/NovaPesquisa.css">
 
         <title>Satisfazendo.vc - Nova Pesquisa</title>
@@ -14,7 +18,7 @@
         <div class="div-pai">
             <header class="cabecalho">
                 <div>
-                    <a href="Home.html">
+                    <a class= "sublinhado" href="Home.html">
                         <img src="../Imagens/Logo.png">
                         <span class="logo">Satisfying.you</span>
                     </a>
@@ -24,30 +28,32 @@
                 </div>
             </header>
 
-            <main class="main">
-                <h1 class="text">Criar nova pesquisa de satisfação</h1>
-                <section class="Espacar">
-                    <p class="text">Nome da pesquisa</p>
-                    <input type="text" id="nome" name="nome" class="box">
-                </section>
-                <section class="Espacar">
-                    <p class="text">Data</p>
-                    <input type="date" id="data" name="data" class="box">
-                </section>
-                <section class="Espacar">
-                    <p class="text">Imagem</p>
-                    <input type="text" id="nome" name="nome" class="box-i">
-                    <label for="imagem" class="imagem-label">Escolher um arquivo</label>
-                    <input type="file" id="imagem" name="imagem" class="imagem-input">
-                    <p></p>
-                    <img src = "../Imagens/Mascara.png">
-                </section>
-                <div class="Alinhar">
-                    <a href="Home.html">
-                        <button class="btn">Criar</button>
-                    </a>
-                </div>
-            </main>
+            <div class="alinha-main">
+                <main class="main">
+                    <h1 class="text">Criar nova pesquisa de satisfação</h1>
+                    <section class="Espacar">
+                        <p class="text">Nome da pesquisa</p>
+                        <input type="text" id="nome" name="nome" class="box">
+                    </section>
+                    <section class="Espacar">
+                        <p class="text">Data</p>
+                        <input type="date" id="data" name="data" class="box">
+                    </section>
+                    <section class="Espacar">
+                        <p class="text">Imagem</p>
+                        <input type="text" id="nome" name="nome" class="box-i">
+                        <label for="imagem" class="imagem-label">Escolher um arquivo</label>
+                        <input type="file" id="imagem" name="imagem" class="imagem-input">
+                        <p></p>
+                        <img src = "../Imagens/Mascara.png">
+                    </section>
+                    <div class="Alinhar">
+                        <a class= "sublinhado" href="Home.html">
+                            <button class="btn">Criar</button>
+                        </a>
+                    </div>
+                </main>
+            </div>
         </div>
     </body>
 </html>

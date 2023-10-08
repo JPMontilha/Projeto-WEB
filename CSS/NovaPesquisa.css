@@ -1,11 +1,12 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family: 'Averia Libre', cursive;
 }
 
 .div-pai {
     background-color: #382775;
-    weight: 100vh;
+    width: 100%;
     height: 100vh;
 }
 
@@ -30,19 +31,22 @@ body{
     padding: 10px;
 }
 
-.main{
-    margin-left: 600px;
-    margin-right: 600px;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 60px;
-    padding-bottom: 60px;
+.alinha-main{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    line-height: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    height: 80vh;
+    width: 80vh;
+    line-height: 0px;
     border: solid;
-    border-radius: 1px;
     border-color: #737373;
     border-radius: 15px;
 }
@@ -99,4 +103,9 @@ body{
     flex-direction: column;
     justify-content:space-around;
     align-items: center;
+    font-family: 'Averia Libre', cursive;
+}
+
+.sublinhado{
+    text-decoration: none;
 }
